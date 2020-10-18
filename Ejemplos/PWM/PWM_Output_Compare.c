@@ -1,4 +1,4 @@
-/*
+
 unsigned short periodo;
 unsigned short duty_cycle;
 unsigned short espejo_pin;
@@ -43,4 +43,3 @@ int main(void)
 	while (1);
 	return 0;
 }
-*/
