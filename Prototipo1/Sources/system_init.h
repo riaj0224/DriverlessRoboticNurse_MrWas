@@ -13,5 +13,8 @@ void CLK_init (void);
 void UART_init(void);
 void I2C_init (void);
 void ADC_init(void);
+void TPM0_init (void);
+void TPM1_init (void);
+void PIT_init (void);
 
 #endif /* SYSTEM_INIT_H_ */
