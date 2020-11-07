@@ -94,7 +94,8 @@ void calcGyroOffsets(){
 }
 
 
-void readMPU(){
+void readMPU()
+{
   Wire.beginTransmission(MPU6050_ADDR);
   Wire.write(MPU6050_DATA); 
   Wire.endTransmission(false);
