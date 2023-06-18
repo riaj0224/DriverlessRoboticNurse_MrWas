@@ -68,7 +68,7 @@ This project follows the file structure below:
 - Images: This directory contains images used in the project, such as design diagrams and website screenshots.
 
 # :mortar_board: Credits
-This project was undertaken during my time at Fluxing Engineering. The team and I embarked on this journey to leverage our engineering skills to contribute positively to the healthcare sector, specifically during the COVID-19 pandemic.
+This project was undertaken during my time at Fluxing Engineering in collaboration with my university, Tecnológico de Monterrey. The team and I embarked on this journey to leverage our engineering skills to contribute positively to the healthcare sector, specifically during the COVID-19 pandemic.
 
 ## :email: Contact Information
 For additional details or discussion related to this project, please connect with me via jair2000.0224@hotmail.com.
