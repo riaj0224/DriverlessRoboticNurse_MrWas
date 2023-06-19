@@ -24,17 +24,15 @@ The following technologies were employed in this project:
 - ESP8266 WiFi Module
 - MPU-6000 IMU
 
-## 📝 Final Report 
+## 📝 Documentation
 
-A detailed report documenting the whole process from the initial feasibility study to the final testing phase is presented in a PDF file (`FinalReport.pdf`). The LaTeX source code for the report is available in the file `FinalReport.tex`.
+This repository features an extensive suite of documentation meticulously detailing each facet of the project. This includes comprehensive reports on manufacturing drawings, actuator systems, movement dynamics, and battery consumption, providing invaluable insights into the intricate operation of the autonomous guidance vehicle.
 
-The report encompasses all the stages of the project and is enriched with various visual aids to provide a clear understanding of our work.
+Furthermore, the repository houses an informative flyer, elucidating the project's objectives, design, and utility.
 
-Additional files used in the LaTeX report include:
-- `bibliography.bib`: Bibliographic data in BibTeX format.
-- Various auxiliary files generated during the LaTeX compiling process.
+The `Doc` directory in the repository serves as a key resource, housing detailed manuals for the FRDM-KL25Z microcontroller and the MPU-6000 IMU (Inertial Measurement Unit). These manuals are heavily referenced throughout the comments in the codebase, guiding the understanding and modification of the software controlling the AGV.
 
-To recompile the report after making changes, use the command `pdflatex FinalReport.tex` in your terminal.
+The meticulous documentation provided in this repository ensures an in-depth understanding of the project, facilitating potential future enhancements and adaptations.
 
 ## 📂 Project Structure
 
