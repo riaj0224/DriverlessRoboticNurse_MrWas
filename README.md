@@ -36,34 +36,49 @@ The meticulous documentation provided in this repository ensures an in-depth und
 
 ## 📂 Project Structure
 
-This project follows the file structure below:
+This project has the following file structure:
 
 ```bash
-├── bibliography.bib
-├── FinalReport.aux
-├── FinalReport.bbl
-├── FinalReport.blg
-├── FinalReport.lof
-├── FinalReport.log
-├── FinalReport.lot
-├── FinalReport.out
-├── FinalReport.pdf
-├── FinalReport.synctex.gz
-├── FinalReport.tex
-├── FinalReport.toc
-├── texput.log
+├── Advisories
+│   ├── Exercise1.c
+│   └── Exercise2.c
 │
-├── Codes
-│ ├── AGV_Control.c
-│ └── Website_Code
+├── Common
+│   ├── IMU_1.c
+│   ├── MPU_RAW.ino
+│   ├── RUart.c
+│   ├── main(1).c
+│   ├── main wifi.c
+│   ├── main wifi2.c
+│   ├── susy.html
+│   └── esp8266_trick
+│       └── esp8266_trick.ino
 │
-└── Images
-    ├── AGV_Design.png
-    └── Website_Screenshots
+├── New_Version_Codes
+│
+├── Examples
+│
+├── Test1
+│
+├── IMU
+│
+└── Prototype3.2
+    └── Sources
 ```
 
-- Codes: This directory contains the code files for the microcontroller and the website.
-- Images: This directory contains images used in the project, such as design diagrams and website screenshots.
+- Advisories: This directory contains two exercise files, Exercise1.c and Exercise2.c, which serve as practice exercises for better understanding the functionality of the microcontroller.
+
+- Common: This directory hosts a collection of code files gathered from various resources, primarily focused on the IMU and WiFi module functionalities.
+
+- New_Version_Codes: This directory contains corrected versions of the modules detailed in the FRDM-KL25Z manual.
+
+- Examples: This directory includes the initial versions of the microcontroller's functional modules such as tpm by interruption and polling, GPIO, Uart, I2C, etc.
+
+- Test1: This directory holds a workspace from CodeWarrior, encapsulating an exam/test designed to assess the programmers' abilities under a time constraint.
+
+- IMU: This directory contains the code files related to the Inertial Measurement Unit (IMU).
+
+- Prototype3.2: This directory contains the entire project workspace from CodeWarrior. All codes related to the project are located in a subdirectory named "Sources".
 
 # :mortar_board: Credits
 This project was undertaken during my time at Fluxing Engineering in collaboration with my university, Tecnológico de Monterrey. The team and I embarked on this journey to leverage our engineering skills to contribute positively to the healthcare sector, specifically during the COVID-19 pandemic.
